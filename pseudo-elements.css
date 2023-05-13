@@ -1,0 +1,15 @@
+h1::before {
+  content: "◆";
+  font-size: 100px;
+  color: orange;
+}
+h1::after {
+  content: "■";
+  font-size: 50px;
+  color: pink;
+}
+p::first-line {
+  font-size: 24px;
+  font-weight: bold;
+  color: gray;
+}
